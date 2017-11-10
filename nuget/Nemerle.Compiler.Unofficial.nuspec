@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Nemerle.Compiler.Unofficial</id>
+        <version>1.2.547</version>
+        <title>Nemerle Language Compiler Library (Unofficial)</title>
+        <authors>University of Wroclaw</authors>
+        <owners>Kentaro INOMATA</owners>
+        <licenseUrl>https://github.com/rsdn/nemerle/wiki/License</licenseUrl>
+        <projectUrl>http://nemerle.org/</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/rsdn/nemerle/master/doc/styles/nemerle-icon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Nemerle (http://nemerle.org) Language Compiler Library</description>
+        <copyright>Copyright © University of Wroclaw 2003-2008, Nemerle Project Team 2008-2013</copyright>
+        <tags>Nemerle Compiler</tags>
+        <dependencies>
+            <group targetFramework="net40">
+                <dependency id="Nemerle.Unofficial" version="1.2.547" />
+            </group>
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework="net40" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework="net40" />
+            <frameworkAssembly assemblyName="System.Xml" targetFramework="net40" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="..\binaries\net-4.0-v1.2.547.0\Nemerle.Compiler.xml" target="lib\net40\Nemerle.Compiler.xml" />
+        <file src="..\binaries\net-4.0-v1.2.547.0\Nemerle.Compiler.dll" target="lib\net40\Nemerle.Compiler.dll" />
+    </files>
+</package>
