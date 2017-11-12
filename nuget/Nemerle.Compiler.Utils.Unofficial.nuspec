@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+        <id>Nemerle.Compiler.Utils.Unofficial</id>
+        <version>1.2.547</version>
+        <title>RSDN Nemerle Utils (Unofficial)</title>
+        <authors>RSDN</authors>
+        <owners>Kentaro INOMATA</owners>
+        <licenseUrl>https://github.com/rsdn/nemerle/wiki/License</licenseUrl>
+        <projectUrl>http://nemerle.org/</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/rsdn/nemerle/master/doc/styles/nemerle-icon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Nemerle (http://nemerle.org) Language Compiler Utilities Library for IDE Integration</description>
+        <copyright>Copyright © RSDN 2006-2008</copyright>
+        <tags>Nemerle RSDN Compiler CodeDOM Completion</tags>
+        <dependencies>
+            <group targetFramework="net40">
+                <dependency id="Nemerle.Unofficial" version="1.2.547" />
+                <dependency id="Nemerle.Compiler.Unofficial" version="1.2.547" />
+            </group>
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework="net40" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework="net40" />
+            <frameworkAssembly assemblyName="System.Design" targetFramework="net40" />
+            <frameworkAssembly assemblyName="System.Drawing" targetFramework="net40" />
+            <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework="net40" />
+            <frameworkAssembly assemblyName="System.Xml" targetFramework="net40" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="..\binaries\net-4.0-v1.2.547.0\Nemerle.Compiler.Utils.xml" target="lib\net40\Nemerle.Compiler.Utils.xml" />
+        <file src="..\binaries\net-4.0-v1.2.547.0\Nemerle.Compiler.Utils.dll" target="lib\net40\Nemerle.Compiler.Utils.dll" />
+    </files>
+</package>
